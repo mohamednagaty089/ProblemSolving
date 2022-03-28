@@ -1,15 +1,21 @@
 import java.util.ArrayList;
 
 public class Testing {
+	
 public static void main(String args[]) {
-	PrimeNumber primenumber=new PrimeNumber();
+HashSetN<String> hash=new HashSetN<String>();
+ArrayList<String> name=new ArrayList<String>();
+name.add("mohamed");
+name.add("nagaty");
+name.add("badawy");
+name.add("ibraheim");
+name.add("mohamed");
+name.add("nagaty");
+name.add("badawy");
+name.add("ibraheim");
+System.out.println(hash.getunique(name));
+
 	
-	System.out.println(primenumber.checkPrimeNumber(89));
-	 
-	ArrayList<Integer> prime=primenumber.getPrimeNumberInRange(10,100);
-	for(int item : prime) {
-		System.out.println(item);
 	}
-	
-}
+   
 }
